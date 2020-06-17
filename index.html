@@ -19,24 +19,90 @@
             <div class="row">
                 <div class="col-xs-12 col-md-5 leftcol align-self-center">
                     <h1 class="studentlogin">Login as Student</h1>
-                    <a href="#"><img src="https://cdn.icon-icons.com/icons2/1846/PNG/512/student3_116217.png"></a>
-                    <a href="#"><ul>
+                    <a data-toggle="modal" data-target=".studentloginmodal"><img src="https://cdn.icon-icons.com/icons2/1846/PNG/512/student3_116217.png"></a>
+                    <ul>
                         <li>Add attendance</li>
                         <li>Review Time Table</li>
                         <li>Review marks</li>
                         <li>Review courses applied for</li>
                         <li>Give teacher feedback</li>
-                    </ul></a>
+                    </ul>
+                    <a data-toggle="modal" data-target=".studentloginmodal"><button type="button" class="btn btn-primary btn-sm ml-auto">Login</button></a>
                 </div>
                 <div class="col-xs-12 col-md-5 rightcol align-self-center">
                     <h1 class="teacherlogin">Login as Teacher</h1>
-                    <a href="#"><img src="https://image.flaticon.com/icons/svg/206/206897.svg"></a>
-                    <a href="#"><ul>
+                    <a data-toggle="modal" data-target=".teacherloginmodal"><img src="https://image.flaticon.com/icons/svg/206/206897.svg"></a>
+                    <ul>
                         <li>Review which class to take</li>
                         <li>Add or Remove students from your class</li>
                         <li>Review Student attendance</li>
                         <li>Warn students if marks are low</li>
-                    </ul></a>
+                    </ul>
+                    <a data-toggle="modal" data-target=".teacherloginmodal"><button type="button" class="btn btn-primary btn-sm ml-auto">Login</button></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade studentloginmodal" role="dialog">
+            <div class="modal-dialog modal-lg" role="content">
+                <!-- Modal Content -->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Student Login</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-sm-5">
+                                    <input type="text" class="form-control form-control-sm mr-1" id="Stuname" placeholder="Enter Name...">
+                                </div>
+                                <div class="form-group col-sm-5">
+                                    <input type="password" class="form-control form-control-sm mr-1" id="Stupass" placeholder="Enter Password...">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-sm-4">
+                                    <button type="button" class="btn btn-secondary btn-sm ml-auto col-4" data-dismiss="modal">Cancel</button>
+                                </div>
+                                <div class="form-group col-sm-4">
+                                    <button type="submit" class="btn btn-primary btn-sm ml-auto col-4">Login</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade teacherloginmodal" role="dialog">
+            <div class="modal-dialog modal-lg" role="content">
+                <!-- Modal Content -->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Teacher Login</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-sm-5">
+                                    <input type="text" class="form-control form-control-sm mr-1" id="Teaname" placeholder="Enter Name...">
+                                </div>
+                                <div class="form-group col-sm-5">
+                                    <input type="password" class="form-control form-control-sm mr-1" id="Teapass" placeholder="Enter Password...">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-sm-4">
+                                    <button type="button" class="btn btn-secondary btn-sm ml-auto col-4" data-dismiss="modal">Cancel</button>
+                                </div>
+                                <div class="form-group col-sm-4">
+                                    <button type="submit" class="btn btn-primary btn-sm ml-auto col-4">Login</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
