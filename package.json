@@ -24,5 +24,8 @@
     "lite-server": "^2.5.4",
     "onchange": "^7.0.2",
     "parallelshell": "^3.0.1"
+  },
+  "dependencies": {
+    "minimist": "^1.2.5"
   }
 }
