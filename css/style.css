@@ -8,7 +8,7 @@ body {
   margin-left: 100px;
   margin-top: 210px;
   text-align: center;
-  border-radius: 20px;
+  border-radius: 25px;
   transition: background-color 0.6s, height 0.6s, margin 0.6s; }
   .leftcol img {
     width: 200px;
@@ -21,6 +21,8 @@ body {
     text-decoration: none !important; }
   .leftcol a button {
     display: none; }
+  .leftcol h1 {
+    padding-top: 10px; }
 
 .rightcol {
   background-color: lavender;
@@ -28,7 +30,7 @@ body {
   height: 290px;
   margin-top: 210px;
   text-align: center;
-  border-radius: 20px;
+  border-radius: 25px;
   transition: background-color 0.6s, height 0.6s, margin 0.6s; }
   .rightcol img {
     width: 210px;
@@ -41,11 +43,13 @@ body {
     text-decoration: none !important; }
   .rightcol a button {
     display: none; }
+  .rightcol h1 {
+    padding-top: 10px; }
 
 .leftcol:hover {
   background-color: orange;
-  height: 440px;
-  margin-top: 165px; }
+  height: 470px;
+  margin-top: 145px; }
   .leftcol:hover a {
     color: white !important; }
   .leftcol:hover h1 {
@@ -58,8 +62,8 @@ body {
 
 .rightcol:hover {
   background-color: orange;
-  height: 430px;
-  margin-top: 165px; }
+  height: 465px;
+  margin-top: 145px; }
   .rightcol:hover a {
     color: white !important; }
   .rightcol:hover h1 {
