@@ -1,0 +1,13 @@
+
+
+//Mixin declaration
+@mixin zero-margin($pad-up-dn, $pad-left-right){
+    margin: 0px auto;
+    padding: $pad-up-dn $pad-left-right;
+}
+
+.jumbotron{
+    @include zero-margin(70px, 30px);
+    background-image: linear-gradient(blue, lightblue) !important;
+    color: white !important;
+}
