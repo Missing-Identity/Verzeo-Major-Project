@@ -1,1 +1,42 @@
 
+.leftcol{
+    background-color: lavender;
+    margin: 10px;
+    margin-left: 100px;
+    text-align: center;
+    border-radius: 20px;
+    img{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+.rightcol{
+    background-color: lavender;
+    margin: 10px;
+    text-align: center;
+    border-radius: 20px;
+    img{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+.leftcol:hover{
+    background-color: orange;
+}
+
+.rightcol:hover{
+    background-color: orange;
+}
+
+@media only screen and (max-width: 750px){
+    .leftcol{
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+
+    .rightcol{
+        margin: 0px;
+    }
+}
