@@ -1,21 +1,32 @@
+body {
+  font-family: 'Muli', sans-serif; }
+
 .leftcol {
   background-color: lavender;
   margin: 10px;
   margin-left: 100px;
+  margin-top: 210px;
   text-align: center;
-  border-radius: 20px; }
+  border-radius: 20px;
+  transition: background-color 0.6s; }
   .leftcol img {
     width: 200px;
     height: 200px; }
+  .leftcol ul {
+    margin-right: 30px; }
 
 .rightcol {
   background-color: lavender;
   margin: 10px;
+  margin-top: 210px;
   text-align: center;
-  border-radius: 20px; }
+  border-radius: 20px;
+  transition: background-color 0.6s; }
   .rightcol img {
     width: 200px;
-    height: 200px; }
+    height: 220px; }
+  .rightcol ul {
+    margin-right: 30px; }
 
 .leftcol:hover {
   background-color: orange; }
@@ -26,6 +37,7 @@
 @media only screen and (max-width: 750px) {
   .leftcol {
     margin: 0px;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    margin-top: 20px; }
   .rightcol {
     margin: 0px; } }

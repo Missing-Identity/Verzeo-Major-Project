@@ -1,24 +1,39 @@
 
+
+body{
+    font-family: 'Muli', sans-serif;
+}
+
 .leftcol{
     background-color: lavender;
     margin: 10px;
     margin-left: 100px;
+    margin-top: 210px;
     text-align: center;
     border-radius: 20px;
+    transition: background-color 0.6s;
     img{
         width: 200px;
         height: 200px;
+    }
+    ul{
+        margin-right: 30px;
     }
 }
 
 .rightcol{
     background-color: lavender;
     margin: 10px;
+    margin-top: 210px;
     text-align: center;
     border-radius: 20px;
+    transition: background-color 0.6s;
     img{
         width: 200px;
-        height: 200px;
+        height: 220px;
+    }
+    ul{
+        margin-right: 30px;
     }
 }
 
@@ -34,6 +49,7 @@
     .leftcol{
         margin: 0px;
         margin-bottom: 10px;
+        margin-top: 20px;
     }
 
     .rightcol{
