@@ -16,17 +16,35 @@
     }
 }
 
-.leftcol{ 
+.leftcol1{ 
     margin-top: 20px;
     margin-right: 5px;
-    background-color: yellow;
+    background-color: rgb(220,98,55);
     border-radius: 25px;
+    height: 300px;
+    color: rgb(251,230,140);
+    transition: height 0.5s, background-color 0.5s;
     img{
         width: 220px;
         height: 220px;
         margin-left: 150px;
+        margin-bottom: 15px;
+        transition: height 0.5s, width 0.5s;
     }
     h2{
         text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+.leftcol1:hover{
+    height: 325px;
+    background-color: rgb(255, 204, 0);
+    color: rgb(255, 77, 77)
+    ;
+    img{
+        height: 245px;
+        width: 225px;
     }
 }

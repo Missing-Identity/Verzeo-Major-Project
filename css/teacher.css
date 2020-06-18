@@ -8,14 +8,29 @@
   .jumbotron p {
     color: white !important; }
 
-.leftcol {
+.leftcol1 {
   margin-top: 20px;
   margin-right: 5px;
-  background-color: yellow;
-  border-radius: 25px; }
-  .leftcol img {
+  background-color: #dc6237;
+  border-radius: 25px;
+  height: 300px;
+  color: #fbe68c;
+  transition: height 0.5s, background-color 0.5s; }
+  .leftcol1 img {
     width: 220px;
     height: 220px;
-    margin-left: 150px; }
-  .leftcol h2 {
-    text-align: center; }
+    margin-left: 150px;
+    margin-bottom: 15px;
+    transition: height 0.5s, width 0.5s; }
+  .leftcol1 h2 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+
+.leftcol1:hover {
+  height: 325px;
+  background-color: #ffcc00;
+  color: #ff4d4d; }
+  .leftcol1:hover img {
+    height: 245px;
+    width: 225px; }
