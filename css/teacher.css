@@ -1,38 +1,21 @@
 .jumbotron {
   margin: 0px auto;
   padding: 70px 30px;
-  background-image: linear-gradient(blue, lightblue) !important;
+  background-image: linear-gradient(#2b1a47, #e06337) !important;
   height: 400px; }
   .jumbotron h1 {
-    color: violet !important; }
+    color: #fbe68c !important; }
   .jumbotron p {
     color: white !important; }
 
-.loginbtn button {
-  width: 140px;
-  height: 60px;
+.leftcol {
+  margin-top: 20px;
+  margin-right: 5px;
   background-color: yellow;
-  border-radius: 20px;
-  transition: width 0.5s, height 0.5s, background-color 0.5s; }
-
-.loginbtn button:hover {
-  width: 160px;
-  height: 70px;
-  background-color: orange !important; }
-
-.delstu {
-  background-color: yellowgreen !important;
-  border-radius: 25px;
-  margin-top: 15px;
-  width: 400px;
-  height: 350px;
-  transition: background-color 0.5s; }
-  .delstu h2 {
+  border-radius: 25px; }
+  .leftcol img {
+    width: 220px;
+    height: 220px;
+    margin-left: 150px; }
+  .leftcol h2 {
     text-align: center; }
-  .delstu img {
-    height: 300px;
-    width: 300px;
-    margin-left: 70px; }
-
-.delstu:hover {
-  background-color: green !important; }

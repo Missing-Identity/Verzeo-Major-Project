@@ -85,4 +85,8 @@ body {
   .rightcol {
     margin: 0px; }
   .rightcol:hover {
-    margin-top: 0px; } }
+    margin-top: 0px; }
+  .cancelbtn {
+    display: inline; }
+  .submitbtn {
+    display: inline; } }
