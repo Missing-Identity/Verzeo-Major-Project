@@ -5,9 +5,8 @@
 }
 
 .jumbotron{
-    @include zero-margin(70px, 30px);
     background-image: linear-gradient(rgb(43,26,71),rgb(224,99,55)) !important;
-    height: 400px;
+    height: 300px;
     h1{
         color: rgb(251,230,140) !important;
     }
@@ -19,11 +18,11 @@
 .leftcol1{ 
     margin-top: 20px;
     margin-right: 5px;
-    background-color: rgb(220,98,55);
+    background-color: rgb(255, 163, 26);
     border-radius: 25px;
     height: 300px;
-    color: rgb(251,230,140);
-    transition: height 0.5s, background-color 0.5s;
+    color: yellow;
+    transition: height 0.5s, background-color 0.5s, margin-top 0.5s;
     img{
         width: 220px;
         height: 220px;
@@ -40,9 +39,9 @@
 
 .leftcol1:hover{
     height: 325px;
-    background-color: rgb(255, 204, 0);
-    color: rgb(255, 77, 77)
-    ;
+    background-color: rgb(255, 255, 0);
+    margin-top: 10px;
+    color: rgb(255, 77, 77);
     img{
         height: 245px;
         width: 225px;
