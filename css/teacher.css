@@ -8,7 +8,7 @@
 
 .leftcol1 {
   margin-top: 20px;
-  margin-right: 5px;
+  margin-right: 95px;
   background-color: #ffa31a;
   border-radius: 25px;
   height: 300px;
@@ -17,7 +17,7 @@
   .leftcol1 img {
     width: 220px;
     height: 220px;
-    margin-left: 150px;
+    margin-left: 110px;
     margin-bottom: 15px;
     transition: height 0.5s, width 0.5s; }
   .leftcol1 h2 {
@@ -27,9 +27,95 @@
 
 .leftcol1:hover {
   height: 325px;
-  background-color: yellow;
+  background-color: #ffff4d;
   margin-top: 10px;
   color: #ff4d4d; }
   .leftcol1:hover img {
+    height: 245px;
+    width: 225px; }
+
+.rightcol1 {
+  margin-top: 20px;
+  margin-left: 70px;
+  background-color: #ffa31a;
+  border-radius: 25px;
+  height: 300px;
+  color: yellow;
+  transition: height 0.5s, background-color 0.5s, margin-top 0.5s; }
+  .rightcol1 img {
+    width: 220px;
+    height: 220px;
+    margin-left: 110px;
+    margin-bottom: 15px;
+    transition: height 0.5s, width 0.5s; }
+  .rightcol1 h2 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+
+.rightcol1:hover {
+  height: 325px;
+  background-color: #ffff4d;
+  margin-top: 10px;
+  color: #ff4d4d; }
+  .rightcol1:hover img {
+    height: 245px;
+    width: 225px; }
+
+.leftcol2 {
+  margin-top: 20px;
+  margin-right: 95px;
+  background-color: #ffa31a;
+  margin-bottom: 40px;
+  border-radius: 25px;
+  height: 300px;
+  color: yellow;
+  transition: height 0.5s, background-color 0.5s, margin-top 0.5s; }
+  .leftcol2 img {
+    width: 220px;
+    height: 220px;
+    margin-left: 110px;
+    margin-bottom: 15px;
+    transition: height 0.5s, width 0.5s; }
+  .leftcol2 h2 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+
+.leftcol2:hover {
+  height: 325px;
+  background-color: #ffff4d;
+  margin-top: 10px;
+  color: #ff4d4d; }
+  .leftcol2:hover img {
+    height: 245px;
+    width: 225px; }
+
+.rightcol2 {
+  margin-top: 20px;
+  margin-left: 70px;
+  margin-bottom: 40px;
+  background-color: #ffa31a;
+  border-radius: 25px;
+  height: 300px;
+  color: yellow;
+  transition: height 0.5s, background-color 0.5s, margin-top 0.5s; }
+  .rightcol2 img {
+    width: 220px;
+    height: 220px;
+    margin-left: 110px;
+    margin-bottom: 15px;
+    transition: height 0.5s, width 0.5s; }
+  .rightcol2 h2 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+
+.rightcol2:hover {
+  height: 325px;
+  background-color: #ffff4d;
+  margin-top: 10px;
+  color: #ff4d4d; }
+  .rightcol2:hover img {
     height: 245px;
     width: 225px; }
