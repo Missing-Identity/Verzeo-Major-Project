@@ -28,7 +28,7 @@
 .leftcol1:hover {
   height: 325px;
   background-color: #ffff4d;
-  margin-top: 10px;
+  margin-top: 5px;
   color: #ff4d4d; }
   .leftcol1:hover img {
     height: 245px;
@@ -56,7 +56,7 @@
 .rightcol1:hover {
   height: 325px;
   background-color: #ffff4d;
-  margin-top: 10px;
+  margin-top: 5px;
   color: #ff4d4d; }
   .rightcol1:hover img {
     height: 245px;
@@ -85,7 +85,7 @@
 .leftcol2:hover {
   height: 325px;
   background-color: #ffff4d;
-  margin-top: 10px;
+  margin-top: 5px;
   color: #ff4d4d; }
   .leftcol2:hover img {
     height: 245px;
@@ -114,20 +114,22 @@
 .rightcol2:hover {
   height: 325px;
   background-color: #ffff4d;
-  margin-top: 10px;
+  margin-top: 5px;
   color: #ff4d4d; }
   .rightcol2:hover img {
     height: 245px;
     width: 225px; }
 
 @media only screen and (max-width: 550px) {
+  body {
+    background-size: cover !important; }
   .leftcol1 {
     margin-right: 0px;
     margin-left: 0px; }
     .leftcol1 img {
       width: 200px;
       height: 190px;
-      margin-left: 80px; }
+      margin-left: 90px; }
   .leftcol1:hover img {
     height: 210px;
     width: 200px; }
@@ -136,13 +138,14 @@
     .rightcol1 img {
       width: 200px;
       height: 190px;
-      margin-left: 78px; }
+      margin-left: 88px; }
   .rightcol1:hover img {
     height: 210px;
     width: 200px; }
   .leftcol2 {
     margin-right: 0px;
-    margin-left: 0px; }
+    margin-left: 0px;
+    margin-bottom: 20px; }
     .leftcol2 img {
       width: 240px;
       height: 230px;
@@ -151,6 +154,7 @@
     height: 240px;
     width: 240px; }
   .rightcol2 {
+    margin-top: 0px;
     margin-left: 0px; }
     .rightcol2 img {
       width: 230px;
