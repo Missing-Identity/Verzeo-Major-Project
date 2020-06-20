@@ -1,15 +1,15 @@
 .jumbotron {
-  background-image: linear-gradient(#2b1a47, #e06337) !important;
+  background-image: linear-gradient(#ff9933, #ffd9b3) !important;
   height: 300px; }
   .jumbotron h1 {
-    color: #fbe68c !important; }
+    color: #994d00 !important; }
   .jumbotron p {
     color: white !important; }
 
 .leftcol1 {
   margin-top: 20px;
   margin-right: 95px;
-  background-color: #ffa31a;
+  background-color: #660066;
   border-radius: 25px;
   height: 300px;
   color: yellow;
@@ -37,7 +37,7 @@
 .rightcol1 {
   margin-top: 20px;
   margin-left: 70px;
-  background-color: #ffa31a;
+  background-color: #660066;
   border-radius: 25px;
   height: 300px;
   color: yellow;
@@ -65,7 +65,7 @@
 .leftcol2 {
   margin-top: 20px;
   margin-right: 95px;
-  background-color: #ffa31a;
+  background-color: #660066;
   margin-bottom: 40px;
   border-radius: 25px;
   height: 300px;
@@ -95,7 +95,7 @@
   margin-top: 20px;
   margin-left: 70px;
   margin-bottom: 40px;
-  background-color: #ffa31a;
+  background-color: #660066;
   border-radius: 25px;
   height: 300px;
   color: yellow;
