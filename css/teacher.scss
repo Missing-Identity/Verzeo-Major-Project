@@ -1,9 +1,14 @@
 
 .jumbotron{
-    background-image: linear-gradient(rgb(255, 153, 51),rgb(255, 217, 179)) !important;
+    background-image: url("https://cdn1.vectorstock.com/i/1000x1000/75/55/bookshelve-with-books-background-library-vector-20657555.jpg");
     height: 300px;
+    .jumbocont{
+        background-color: rgba(128, 0, 0,0.6);
+        border-radius: 25px;
+        height: 180px;
+    }
     h1{
-        color: rgb(153, 77, 0) !important;
+        color: yellow !important;
     }
     p{
         color: white !important;
@@ -13,10 +18,10 @@
 .leftcol1{ 
     margin-top: 20px;
     margin-right: 95px;
-    background-color: rgb(102, 0, 102);
+    background-color: white;
     border-radius: 25px;
     height: 300px;
-    color: yellow;
+    color: black;
     transition: height 0.5s, background-color 0.5s, margin-top 0.5s;
     img{
         width: 220px;
@@ -34,9 +39,9 @@
 
 .leftcol1:hover{
     height: 325px;
-    background-color: rgb(255, 255, 77);
+    background-color: black;
     margin-top: 5px;
-    color: rgb(255, 77, 77);
+    color: white;
     img{
         height: 245px;
         width: 225px;
@@ -46,10 +51,10 @@
 .rightcol1{
     margin-top: 20px;
     margin-left: 70px;
-    background-color: rgb(102, 0, 102);
+    background-color: white;
     border-radius: 25px;
     height: 300px;
-    color: yellow;
+    color: black;
     transition: height 0.5s, background-color 0.5s, margin-top 0.5s;
     img{
         width: 220px;
@@ -67,9 +72,9 @@
 
 .rightcol1:hover{
     height: 325px;
-    background-color: rgb(255, 255, 77);
+    background-color: black;
     margin-top: 5px;
-    color: rgb(255, 77, 77);
+    color: white;
     img{
         height: 245px;
         width: 225px;
@@ -79,11 +84,11 @@
 .leftcol2{
     margin-top: 20px;
     margin-right: 95px;
-    background-color: rgb(102, 0, 102);
+    background-color: white;
     margin-bottom: 40px;
     border-radius: 25px;
     height: 300px;
-    color: yellow;
+    color: black;
     transition: height 0.5s, background-color 0.5s, margin-top 0.5s;
     img{
         width: 220px;
@@ -101,9 +106,9 @@
 
 .leftcol2:hover{
     height: 325px;
-    background-color: rgb(255, 255, 77);
+    background-color: black;
     margin-top: 5px;
-    color: rgb(255, 77, 77);
+    color: white;
     img{
         height: 245px;
         width: 225px;
@@ -114,11 +119,11 @@
     margin-top: 20px;
     margin-left: 70px;
     margin-bottom: 40px;
-    background-color: rgb(102, 0, 102);
+    background-color: white;
     border-radius: 25px;
     height: 300px;
-    color: yellow;
-    transition: height 0.5s, background-color 0.5s, margin-top 0.5s;
+    color: black;
+    transition: height 0.5s, width 0.5s, background-color 0.5s, margin-top 0.5s;
     img{
         width: 220px;
         height: 220px;
@@ -135,12 +140,12 @@
 
 .rightcol2:hover{
     height: 325px;
-    background-color: rgb(255, 255, 77);
+    background-color: black;
     margin-top: 5px;
-    color: rgb(255, 77, 77);
+    color: white;
     img{
         height: 245px;
-        width: 225px;
+        width: 230px;
     }
 }
 
