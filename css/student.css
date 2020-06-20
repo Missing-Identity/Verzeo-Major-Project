@@ -168,4 +168,6 @@
       margin-bottom: 10px; }
   .rightcol2:hover img {
     height: 250px;
-    width: 230px; } }
+    width: 230px; }
+  .jumbotron .jumbocont {
+    height: 200px; } }
