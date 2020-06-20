@@ -1,12 +1,19 @@
 
 .jumbotron{
-    background-image: linear-gradient(rgb(43,26,71),rgb(224,99,55)) !important;
+    // background-image: linear-gradient(rgb(0, 179, 0),rgb(230, 230, 0)) !important;
+    background-image: url("https://cdn4.vectorstock.com/i/1000x1000/45/13/education-background-vector-10664513.jpg");
     height: 300px;
+    .jumbocont{
+        background-color: rgba(255, 77, 77, 0.5);
+        border-radius: 25px;
+        height: 180px;
+    }
     h1{
-        color: rgb(251,230,140) !important;
+        color: white !important;
     }
     p{
-        color: white !important;
+        color: yellow !important;
+        font-weight: 600;
     }
 }
 
@@ -214,6 +221,12 @@
         img{
             height: 250px;
             width: 230px;
+        }
+    }
+
+    .jumbotron{
+        .jumbocont{
+            height: 200px;
         }
     }
 }

@@ -1,10 +1,15 @@
 .jumbotron {
-  background-image: linear-gradient(#2b1a47, #e06337) !important;
+  background-image: url("https://cdn4.vectorstock.com/i/1000x1000/45/13/education-background-vector-10664513.jpg");
   height: 300px; }
+  .jumbotron .jumbocont {
+    background-color: rgba(255, 77, 77, 0.5);
+    border-radius: 25px;
+    height: 180px; }
   .jumbotron h1 {
-    color: #fbe68c !important; }
-  .jumbotron p {
     color: white !important; }
+  .jumbotron p {
+    color: yellow !important;
+    font-weight: 600; }
 
 .leftcol1 {
   margin-top: 20px;
@@ -163,4 +168,6 @@
       margin-bottom: 10px; }
   .rightcol2:hover img {
     height: 250px;
-    width: 230px; } }
+    width: 230px; }
+  .jumbotron .jumbocont {
+    height: 200px; } }
