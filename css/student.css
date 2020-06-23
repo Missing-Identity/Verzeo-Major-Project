@@ -29,15 +29,24 @@
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px; }
+  .leftcol1 button {
+    display: none;
+    border-radius: 25px;
+    margin-left: 175px; }
 
 .leftcol1:hover {
-  height: 325px;
+  height: 375px;
   background-color: #ffff4d;
   margin-top: 5px;
   color: #ff4d4d; }
   .leftcol1:hover img {
     height: 245px;
     width: 225px; }
+  .leftcol1:hover button {
+    background-color: blue;
+    display: block; }
+  .leftcol1:hover a {
+    text-decoration: none !important; }
 
 .rightcol1 {
   margin-top: 20px;
@@ -57,15 +66,24 @@
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px; }
+  .rightcol1 a {
+    text-decoration: none !important; }
+  .rightcol1 button {
+    display: none;
+    border-radius: 25px;
+    margin-left: 178px;
+    background-color: blue; }
 
 .rightcol1:hover {
-  height: 325px;
+  height: 375px;
   background-color: #ffff4d;
   margin-top: 5px;
   color: #ff4d4d; }
   .rightcol1:hover img {
     height: 245px;
     width: 225px; }
+  .rightcol1:hover button {
+    display: block; }
 
 .leftcol2 {
   margin-top: 20px;
@@ -86,15 +104,25 @@
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px; }
+  .leftcol2 button {
+    display: none; }
+  .leftcol2 a {
+    text-decoration: none !important; }
 
 .leftcol2:hover {
-  height: 325px;
+  height: 350px;
   background-color: #ffff4d;
   margin-top: 5px;
   color: #ff4d4d; }
   .leftcol2:hover img {
-    height: 245px;
+    height: 220px;
     width: 225px; }
+  .leftcol2:hover button {
+    background-color: blue;
+    display: block;
+    margin-left: 175px;
+    justify-content: center;
+    border-radius: 25px; }
 
 .rightcol2 {
   margin-top: 20px;
@@ -115,15 +143,24 @@
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px; }
+  .rightcol2 a {
+    text-decoration: none !important; }
+  .rightcol2 button {
+    display: none;
+    margin-left: 178px;
+    border-radius: 25px;
+    background-color: blue; }
 
 .rightcol2:hover {
-  height: 325px;
+  height: 375px;
   background-color: #ffff4d;
   margin-top: 5px;
   color: #ff4d4d; }
   .rightcol2:hover img {
     height: 245px;
     width: 225px; }
+  .rightcol2:hover button {
+    display: block; }
 
 @media only screen and (max-width: 550px) {
   body {
@@ -156,8 +193,11 @@
       height: 230px;
       margin-left: 60px; }
   .leftcol2:hover img {
-    height: 240px;
+    height: 220px;
     width: 240px; }
+  .leftcol2:hover button {
+    display: block;
+    margin-left: 150px; }
   .rightcol2 {
     margin-top: 0px;
     margin-left: 0px; }

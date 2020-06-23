@@ -36,16 +36,28 @@
         margin-top: 10px;
         margin-bottom: 10px;
     }
+    button{
+        display: none;
+        border-radius: 25px;
+        margin-left: 175px;
+    }
 }
 
 .leftcol1:hover{
-    height: 325px;
+    height: 375px;
     background-color: rgb(255, 255, 77);
     margin-top: 5px;
     color: rgb(255, 77, 77);
     img{
         height: 245px;
         width: 225px;
+    }
+    button{
+        background-color: blue;
+        display: block;
+    }
+    a{
+        text-decoration: none !important;
     }
 }
 
@@ -69,16 +81,28 @@
         margin-top: 10px;
         margin-bottom: 10px;
     }
+    a{
+        text-decoration: none !important;
+    }
+    button{
+        display: none;
+        border-radius: 25px;
+        margin-left: 178px;
+        background-color: blue;
+    }
 }
 
 .rightcol1:hover{
-    height: 325px;
+    height: 375px;
     background-color: rgb(255, 255, 77);
     margin-top: 5px;
     color: rgb(255, 77, 77);
     img{
         height: 245px;
         width: 225px;
+    }
+    button{
+        display: block;
     }
 }
 
@@ -103,16 +127,29 @@
         margin-top: 10px;
         margin-bottom: 10px;
     }
+    button{
+        display: none;
+    }
+    a{
+        text-decoration: none !important;
+    }
 }
 
 .leftcol2:hover{
-    height: 325px;
+    height: 350px;
     background-color: rgb(255, 255, 77);
     margin-top: 5px;
     color: rgb(255, 77, 77);
     img{
-        height: 245px;
+        height: 220px;
         width: 225px;
+    }
+    button{
+        background-color: blue;
+        display: block;
+        margin-left: 175px;
+        justify-content: center;
+        border-radius: 25px;
     }
 }
 
@@ -137,16 +174,28 @@
         margin-top: 10px;
         margin-bottom: 10px;
     }
+    a{
+        text-decoration: none !important;
+    }
+    button{
+        display: none;
+        margin-left: 178px;
+        border-radius: 25px;
+        background-color: blue;
+    }
 }
 
 .rightcol2:hover{
-    height: 325px;
+    height: 375px;
     background-color: rgb(255, 255, 77);
     margin-top: 5px;
     color: rgb(255, 77, 77);
     img{
         height: 245px;
         width: 225px;
+    }
+    button{
+        display: block;
     }
 }
 
@@ -201,8 +250,12 @@
 
     .leftcol2:hover{
         img{
-            height: 240px;
+            height: 220px;
             width: 240px;
+        }
+        button{
+            display: block;
+            margin-left: 150px;
         }
     }
 
