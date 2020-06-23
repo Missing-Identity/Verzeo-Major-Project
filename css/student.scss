@@ -207,6 +207,7 @@
     .leftcol1{
         margin-right: 0px;
         margin-left: 0px;
+        margin-top: 0px;
         img{
             width: 200px;
             height: 190px;
@@ -215,9 +216,13 @@
     }
 
     .leftcol1:hover{
+        height: 345px;
         img{
             height: 210px;
             width: 200px;
+        }
+        button{
+            margin-left: 140px;
         }
     }
 
@@ -231,9 +236,13 @@
     }
 
     .rightcol1:hover{
+        height: 345px;
         img{
             height: 210px;
             width: 200px;
+        }
+        button{
+            margin-left: 150px;
         }
     }
 
@@ -255,13 +264,14 @@
         }
         button{
             display: block;
-            margin-left: 150px;
+            margin-left: 140px;
         }
     }
 
     .rightcol2{
         margin-top: 0px;
         margin-left: 0px;
+        margin-bottom: 8px;
         img{
             width: 230px;
             height: 240px;
@@ -275,6 +285,10 @@
             height: 250px;
             width: 230px;
         }
+        button{
+            margin-left: 145px;
+        }
+        margin-bottom: 5px;
     }
 
     .jumbotron{
